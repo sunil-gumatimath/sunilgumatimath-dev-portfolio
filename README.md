@@ -23,7 +23,7 @@ A modern, responsive portfolio website showcasing my expertise as a full-stack d
 - 💼 [LinkedIn](https://linkedin.com/in/sunil-gumatimath)
 - 🐙 [GitHub](https://github.com/sunil-gumatimath)
 - 📧 [Email](mailto:sunil@example.com)
-- 🌐 [Live Portfolio](https://sunil-portfolio.vercel.app)
+- 🌐 [Live Portfolio](https://sunilted-portfolio.vercel.app/)
 
 ---
 
