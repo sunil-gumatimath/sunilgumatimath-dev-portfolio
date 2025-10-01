@@ -20,7 +20,7 @@ A modern, responsive portfolio website showcasing my expertise as a full-stack d
 
 **Sunil Gumatimath** - Full Stack Developer
 
-- 💼 [LinkedIn](https://linkedin.com/in/sunil-gumatimath)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sunil-gumatimath-2a6577240/)
 - 🐙 [GitHub](https://github.com/sunil-gumatimath)
 - 📧 [Email](mailto:sunil@example.com)
 - 🌐 [Live Portfolio](https://sunilted-portfolio.vercel.app/)
