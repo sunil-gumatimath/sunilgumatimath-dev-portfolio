@@ -16,53 +16,6 @@ A modern, responsive portfolio website showcasing my expertise as a full-stack d
 **Backend:** AWS S3, Express.js, Hono, Node.js
 **Tools:** Vite, ESLint, Git
 
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/sunil-gumatimath/sunilgumatimath-dev-portfolio.git
-cd sunilgumatimath-dev-portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Open http://localhost:3000
-```
-
-## 📁 Project Structure
-
-```
-sunil-portfolio/
-├── public/              # Static assets (favicon, images)
-├── src/
-│   ├── components/     # React components with ShadCN UI
-│   ├── backend/       # AWS S3 integration & API logic
-│   ├── hooks/         # Custom React hooks
-│   ├── lib/          # Utility functions
-│   ├── App.tsx       # Main app component
-│   ├── main.tsx      # App entry point
-│   └── index.css     # Global styles & Tailwind config
-├── index.html          # HTML template
-├── package.json        # Dependencies & scripts
-├── vite.config.ts      # Vite configuration
-├── tsconfig.json       # TypeScript configuration
-└── components.json     # ShadCN UI configuration
-```
-
-## 🚀 Deployment
-
-Ready for deployment on:
-- **Vercel** (Recommended)
-- **Netlify**
-- **GitHub Pages**
-
-```bash
-npm run build  # Build for production
-```
-
 ## 📞 Contact
 
 **Sunil Gumatimath** - Full Stack Developer
