@@ -1,28 +1,59 @@
 # Sunil Portfolio
 
-A personal portfolio website built with React, TypeScript, and TailwindCSS using Vite as the build tool and ShadCN UI for components.
+A personal portfolio website built with React 19, TypeScript, and TailwindCSS V4 using Vite as the build tool and ShadCN UI for components. Includes backend API integration with AWS S3, Express, and Hono.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+npm install
+# or
+bun install
+
+# Then start the development server
+npm run dev
+# or
 bun dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
+
+### Development Configuration
+
+The development server runs on **port 3000** by default (configured in `vite.config.ts`). To use a different port:
+
+**Using npm:**
+```bash
+PORT=4000 npm run dev
+```
+
+**Using Bun:**
+```bash
+PORT=4000 bun dev
+```
+
+**Environment Variables:**
+- `PORT`: Set custom development port (default: 3000)
+- `HOST`: Set to `true` to expose to network (configured in `vite.config.ts`)
 
 ## Project Configuration
 
 ### Package Management
 
-This project uses [Bun](https://bun.sh/) as the package manager:
+This project supports both [npm](https://www.npmjs.com/) and [Bun](https://bun.sh/) package managers. Both lock files are present in the project:
 
-- Install dependencies: `bun add <package-name>`
+**Using npm:**
+- Install dependencies: `npm install`
+- Run scripts: `npm run <script-name>`
+- Install packages: `npm install <package-name>`
+
+**Using Bun:**
+- Install dependencies: `bun install`
 - Run scripts: `bun <script-name>`
-- Manage dev dependencies: `bun add -d <package-name>`
+- Install packages: `bun add <package-name>`
 
 ### Theme Customization
 
@@ -118,18 +149,43 @@ To change or update fonts:
 1. Update the Google Fonts import in `src/index.css`
 2. Modify the `--font-sans` variable in the `@theme` directive
 
+### Backend Integration
+
+This project includes backend API capabilities with the following technologies:
+
+**AWS Integration:**
+- **AWS S3**: For file storage and asset management
+- Located in `src/backend/api.ts`
+
+**Server Frameworks:**
+- **Express.js**: Traditional Node.js web server framework
+- **Hono**: Fast, lightweight web framework for Cloudflare Workers and Node.js
+
+**API Features:**
+- File upload and management via AWS S3
+- RESTful API endpoints
+- Cloudflare Workers compatibility
+
 ## Build and Deploy
 
-Build the project:
+Build the project for production:
 
 ```bash
+npm run build
+# or
 bun run build
 ```
 
-Preview the production build:
+Preview the production build locally:
 
 ```bash
+npm run preview
+# or
 bun run preview
 ```
 
 The built files will be in the `dist` directory, ready for deployment to any static hosting service.
+
+### Additional Scripts
+
+- **Lint code**: `npm run lint` or `bun lint` - Runs ESLint for code quality checks
