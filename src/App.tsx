@@ -483,7 +483,7 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center">
             <p className="text-muted-foreground">
-              © 2024 Sunil Gumatimath. Crafted with passion and attention to detail.
+              © 2025 Sunil Gumatimath. Crafted with passion and attention to detail.
             </p>
           </div>
         </div>
