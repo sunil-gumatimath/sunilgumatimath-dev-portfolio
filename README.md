@@ -27,6 +27,4 @@ A modern, responsive portfolio website showcasing my expertise as a full-stack d
 
 ---
 
-⭐ **Star this repo if you like it!**
-
 Built with ❤️ using modern web technologies.
